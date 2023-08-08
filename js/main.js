@@ -18,7 +18,7 @@ productos.sort((a, b) => a.nombre.localeCompare(b.nombre));
   
 let productoDeseado = prompt("¿Qué producto desea comprar?");
   
-productoDeseado = productoDeseado.toLowerCase();
+productoDeseado = productoDeseado.toLowerCase(); 
 
 let productoEncontrado = productos.find(producto => producto.nombre.toLowerCase() === productoDeseado);
 
